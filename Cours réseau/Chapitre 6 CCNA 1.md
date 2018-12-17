@@ -21,7 +21,7 @@ Le protocole IP comporte de nombreuses caractéristiques :
 
 
 
-IMAGE EN TETE IPV4
+![img](https://github.com/StevenDias33/-Offensive-Security-Certified-Professional/blob/master/Cours%20r%C3%A9seau/Images/En-t%C3%AAte%20de%20paquet%20IPV4.png)
 
 
 
@@ -61,7 +61,7 @@ En-tête IP simplifié
 
 
 
-IMAGE EN TETE IPV6
+![img](https://github.com/StevenDias33/-Offensive-Security-Certified-Professional/blob/master/Cours%20r%C3%A9seau/Images/En-t%C3%AAte%20de%20paquet%20IPV6.png)
 
 
 
@@ -85,8 +85,7 @@ IMAGE EN TETE IPV6
 
 Dans un réseau pour communiquer avec d&#39;autres réseau on a besoin d&#39;une passerelle par défaut
 
-TABLE DE ROUTAGE
-
+![img](https://github.com/StevenDias33/-Offensive-Security-Certified-Professional/blob/master/Cours%20r%C3%A9seau/Images/Table%20routage.png)
 -
   Interface List (liste des interfaces) : répertorie les adresses MAC et les numéros d&#39;interface attribués à chaque interface réseau de l&#39;hôte, notamment les adaptateurs Ethernet, Wi-Fi et Bluetooth.
 
