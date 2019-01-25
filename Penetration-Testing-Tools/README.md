@@ -1,16 +1,8 @@
-## Penetration Testing Tools, Scripts, CheatSheets
+## Other Penetration-Testing related scripts and tools
 
-This is a collection of many tools, scripts, cheatsheets and other loots that i found on github created by [Gists](https://gist.github.com/mgeeky)
 
-This repository does not contain actual exploits. 
-This repository is divided further onto following directories:
+- **`bluetoothObexSpam.py`** - Script intended to flood bluetooth enabled devices with incoming OBEX Object Push requests containing attacker-specified file. ([gist]())
 
-- `file-formats` - Contains various file-format related utilities, fuzzers and so on.
-- `linux` - Contains linux-based scripts for various purposes.
-- `networks` - Network devices & services Penetration Testing and auditing scripts
-- `others` - Others related somehow to penetration tests & Audits
-- `red-teaming` - Powershell, Visual Basic, js, phishings and other alike candys
-- `web` - Web-Application auditing, pentesting, fuzzing related.
-- `windows` - Windows utilities, scripts, exploits.
+- **`encrypt.rb`** - Simple File Encryption utility (with support for Blowfish, GOST, IDEA, AES) capable of encrypting directories. ([gist]())
 
-Of course these tools do not contain any customer/client related sensitive informations and there are no assignment-specific tools developed as PoCs. 
+- **`xor-key-recovery.py`** - Simple XOR brute-force Key recovery script - given a cipher text, plain text and key length - it searches for proper key that could decrypt cipher into text. ([gist]())
