@@ -16,3 +16,5 @@ There's a list of exit function `(__exit_funcs)`, but `PTR_DEMANGLE` prevented m
 Those `__rtld` macros are defined in [glibc/sysdeps/generic/libc-lock.h](https://github.molgen.mpg.de/git-mirror/glibc/blob/master/sysdeps/mach/hurd/libc-lock.h), and we can patch them!
 
 Since `libc` will be mapped above `ld` in the virtual space, and the offset between them is constant for each environment, we can calculate the address easily. We also have Dockerfile of this challenge, so build it and calculate the offset between `libc` and `ld`. Finally, patch one of those pointer to `one_gadget` and boom, we'll get a shell. We only need 3 bytes to do the patching, since the offset between `libc` and `ld` is relatively small (on the docker it's `0x3f1000`)
+
+Credit to nyan cat
