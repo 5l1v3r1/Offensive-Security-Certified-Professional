@@ -1,0 +1,1 @@
+La synthese de la présentation orale du labo sécu ce trouve [ici](https://github.com/StevenDias33/Offensive-Security-Certified-Professional/blob/master/Documents/Labo%20S%C3%A9cu/Rendu%20Labo%20S%C3%A9cu.md).
